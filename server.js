@@ -12,7 +12,7 @@ if (process.env.NODE_ENV !== 'production') {
   
   app.set('view engine', 'ejs')
   app.set('views', path.join(__dirname, 'views'))
-  app.set('layout', 'layouts/layout')
+  app.set('layout', 'layouts/Layout')
   app.use(expressLayouts)
   app.use(express.static('public'))
   
